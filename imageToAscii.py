@@ -2,8 +2,6 @@ import PIL.Image
 import shutil
 from PIL import ImageEnhance, ImageFilter
 
-ASCII_CHARACTER = ["@", "#", "S", "%", "?", "*", "+", ";", ":", ",", "."]
-
 ASCII_CHARACTER = ["@", "*", "+", "#", "&", "%", "_", ":", "0", "/", "X"]
 
 def resizeImage(image, new_width=100):
